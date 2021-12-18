@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
+
+:root {
+    --main : #515151;
+    --blue : #1C9BE9;
+    --light : #55B4ED;
+    --bg : azure;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    flex: 1;
+    padding-left: 110px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--main);
+}
+nav ul li a:hover {
+    color: var(--blue);
+    transform: scale(2.05);
+}
+.content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: px;
+    color: var(--main);
+}
+.content h1 span {
+    color: var(--blue);
+}
+.content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: var(--main);
+}
+
+.content p {
+    font-size: 20px;
+    color: var(--main);
+}
+.content {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn {
+    display: inline-block;
+    background-color: var(--light);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+.social-links {
+    margin-top: 30px;
+}
+.social-links a {
+    margin-left: 20px;
+    font-size: 30px;
+    color: var(--main);
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 78px 0px;
+    margin-top: 20px;
+}
+.about img {
+    height: auto;
+    width: 350px;
+    border-radius: 10000px;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1120px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: var(--main);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.about-text p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+span {
+    color: var(--blue);
+}
+h4 {
+    color: var(--light);
+}
+.text {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: -20px;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color: var(--main);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    color: var(--blue);
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    font-size: 30px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:0 8px;
+    color:var(--main);
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+.quote {
+    padding: 100px;
+    text-align: center;
+}
+.quote p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: var(--main);
+}
+.quote h5 {
+    color: var(--blue);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.quote i {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: var(--blue);
+}
+.interests {
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.interests h2 {
+    color: var(--main);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.interests p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+span {
+    color: var(--blue);
+}
+h4 {
+    color: var(--light);
+}
+.text {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: -20px;
+}
+
+.interests .hobbies {
+    padding: 30px 100px;
+    font-size:10px;
+    height:17px;
+    margin-top: 20px;
+    text-align: center;
+    display:inline-block;
+    color: var(--main);
+}
+.interests .hobbies i {
+    padding: 20px;
+    font-size: 90px;
+    color: var(--main);
+}
+.interests .hobbies h1 {
+    color: var(--blue);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.contact-wrapper .title-side {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding: 200px 10px;
+}
+.contact-wrapper .information {
+    width: 50%;
+    padding: 200px 10px;
+}
+.information .socmed a {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.socmed {
+    margin-left: 40px;
+    margin-bottom: -20px;
+}
+.information h4 {
+    color: var(--blue);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.information h4 i {
+    font-size: 20px;
+}
+.information p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 26px;
+}
+.quote p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: var(--main);
+}
+.quote h4 {
+    color: var(--main);
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.title-side img {
+    width: 80%;
+}
+.contact-wrapper img {
+    margin-top: 80px;
+    width: 50%;
+}
+.interests h3 {
+    color: var(--main);
+    font-size: 40px;
+    margin-top: 20px;
+}
